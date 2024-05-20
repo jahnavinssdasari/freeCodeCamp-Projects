@@ -1,0 +1,64 @@
+*{
+    background-color: #fefefe;
+  }
+  img{
+    width: 300;
+    object-fit: cover;
+  }
+  h2,p{
+    font-family: "Raleway",sans-serif;
+  }
+  a{
+    color: black;
+  }
+  #pro_form{
+    grid-column: 1/-1;
+    position: relative;
+    text-align: center;
+  }
+  header{
+    justify-content: flex-end;
+    position: positioned;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: none;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 1em;
+  }
+  #nav-bar{
+    display:flex;
+  flex-direction:row;
+  align-items:center;
+  list-style:none;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .nav-link{
+      display:flex;
+    list-style:none;
+    position:fixed;
+    
+  }
+  
+  
+  @media only screen and (max-width: 720px) {
+    .image-wrapper {
+      grid-template-columns: 1fr;
+    }
+    i {
+      color: yellow;
+    }
+    #submit {
+      background-color: yellow;
+    }
+    input {
+      font-weight: bold;
+      font-size: 15;
+    }
+    .btn {
+      color: blue;
+    }
+}
